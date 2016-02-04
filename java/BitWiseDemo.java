@@ -8,6 +8,7 @@ class BitWiseDemo{
         System.out.println(binary[a] + " | \n" + binary[b] + "\n----\n" + binary[(a | b)] + "\n\n");
         System.out.println(binary[a] + " & \n" + binary[b] + "\n----\n" + binary[(a & b)] + "\n\n");
         System.out.println(binary[a] + " ^ \n" + binary[b] + "\n----\n" + binary[(a ^ b)] + "\n\n");
-        System.out.println();
+        System.out.println("~" + binary[a] + ": " + ~a);
+        System.out.println("~" + binary[a] + " & 0x0f: " + binary[(~a & 0x0f)]);
     }
 }
