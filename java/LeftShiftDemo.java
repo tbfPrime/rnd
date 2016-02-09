@@ -3,8 +3,10 @@ class LeftShiftDemo{
         System.out.println("Program to demo LeftShift operator.)");
 
         int a = 2;
-        for(int i = 0; i < 4; i++){
-            System.out.println("Value of a is: " + (a <<= 1));
+        byte b = (byte)0x80;
+        System.out.println("Value of byte is: " + b);
+        for(int i = 0; i < 34; i++){
+            System.out.println(i + " - Value of a is: " + (a <<= 1));
         }
     }
 }
